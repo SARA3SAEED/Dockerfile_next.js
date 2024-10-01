@@ -1,3 +1,5 @@
+# docker build -f Dockerfile -t nextjs1 .
+# docker run -d -p 3000:3000 nextjs1      
 
 FROM node:18-alpine AS base
 
